@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form</title>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
 </head>
 <body>
     <div class="titl">
@@ -46,11 +47,11 @@
                 </div>
                 <div class = "lis">
                     <label for = "i4">Rate your Survey experience(<i>0 is worst and 10 is best</i>)</label>
-                    <input type="range" min="0" max="10" name="i4" id = "rate">
-                    <input type="text" id="val">
+                    <input type="number" min="0" max="10" name="i4" id = "rate">
+                    <!-- <input type="text" id="val"> -->
                 </div>
                 <div class="btn"> 
-                    <button type="submit">Submit</button>
+                    <button type="submit" id="btun">Submit</button>
                 </div>
             </form>
         </div>

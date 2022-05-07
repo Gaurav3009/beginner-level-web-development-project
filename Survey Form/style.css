@@ -15,16 +15,18 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 10px;
 }
 .fo{
+    box-shadow: 4px 4px 4px rgb(44, 43, 43);
     background-color: aliceblue;
-    width: 80%;
+    width: 50%;
 }
 .lis{
     padding: 20px;
 }
 textarea{
-    width: 560px;
+    width: 90%;
     height: 200px;
     border-radius: 5px;
     align-items: center;
@@ -43,4 +45,5 @@ label{
     font-size: large;
     border-radius: 5px;
     color: green;
+    margin-bottom: 4px;
 }
