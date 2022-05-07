@@ -4,7 +4,7 @@ body{
 }
 .main{
     height: 300px;
-    width: 100vw;
+    width: 96vw;
     padding: 20px;
     background-color: #d9e6f2;
 }
@@ -51,4 +51,15 @@ body{
 td{
     background-color: #f2f2ff;
     padding: 10px;
+}
+.quote{
+    text-align: center;
+    margin: 50px 50px 0px 50px;
+    background-color: peachpuff;
+    padding: 100px;
+}
+.quote h1{
+    font-family: cursive;
+    
+
 }
