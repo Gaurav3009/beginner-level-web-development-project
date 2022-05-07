@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="titl">
+        <h1 id="heading">Survey Form</h1>
+        <p><i>Fill the form carefully</i></p>
+        <!-- <hr> -->
+    </div>
+    <div class="main">
+        <div class="fo">
+            <form>
+                <div class="lis">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" placeholder="name">
+                </div>
+                <div class = "lis">
+                    <label for = "email">Email</label>
+                    <input type="email" name="email" placeholder="abc123@gmail.com">
+                </div>
+                <div class = "lis">
+                    <label for="contact">Contact No.</label>
+                    <input type="number" name="contact" placeholder="9*********0" maxlength="10" minlength="10">
+                </div>
+                <div class = "lis">
+                    <label for="sec">Section</label>
+                    <input type="text" name = "sec" placeholder="K19**">
+                </div>
+                <div class = "lis">
+                    <label for = "i1">What is your point of view regarding Artificial Intelligence?</label><br>
+                    <textarea placeholder="Enter your text here!" name="i1"></textarea>
+                </div>
+                <div class = "lis">
+                    <label for="i2">Should Python be taught in schools from lower classes?</label><br>
+                    <textarea placeholder="Enter your text here!" name = "i2"></textarea>
+                </div>
+                <div class = "lis">
+                    <label for = "i3">Which programming laguage is your favourite? Why?</label><br>
+                    <textarea placeholder="Enter your text here!" name = "i3"></textarea>
+                </div>
+                <div class = "lis">
+                    <label for = "i4">Rate your Survey experience(<i>0 is worst and 10 is best</i>)</label>
+                    <input type="range" min="0" max="10" name="i4" id = "rate">
+                    <input type="text" id="val">
+                </div>
+                <div class="btn"> 
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
