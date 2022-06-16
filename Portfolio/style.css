@@ -1,0 +1,36 @@
+.navbar-collapse{
+    margin-left : 56vw;  
+}
+
+.nav-item{
+    margin-left : 3vw;
+}
+.navbar-text{
+    margin-top: -1vh;
+    
+}
+
+.det{
+    width: 15%;
+    padding : 0;
+}
+
+.intro{
+    background-image: url("back.jpg");
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.intro-depth{
+    width: 50vw;
+    color: white;
+}
+.intro-depth h1{
+    font-size: 5rem;
+}
+.profile-pic img{
+    border-radius: 50%;
+}
