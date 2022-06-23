@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Poppins:ital,wght@1,200&display=swap');
+*{
+    scroll-behavior: smooth;
+}
 .navbar-collapse{
-    margin-left : 56vw;  
+    margin-left : 50vw;  
+}
+.navbar-brand{
+    font-family: 'Joan', serif;
+    font-size: 1.52rem
 }
 
 .nav-item{
@@ -14,23 +22,204 @@
     width: 15%;
     padding : 0;
 }
+.title{
+    text-align: center;
+    margin-bottom: 8vh;
+}
 
 .intro{
-    background-image: url("back.jpg");
+    background-image: url("bg.jpg");
     background-size: cover;
     height: 90vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+     display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
 }
+
 .intro-depth{
-    width: 50vw;
     color: white;
+    text-align: center;
+    margin: 0 4vw 0 4vw;
 }
 .intro-depth h1{
     font-size: 5rem;
 }
 .profile-pic img{
     border-radius: 50%;
+}
+@media screen and (max-width : 600px){
+    .profile-pic img{
+        height: 50 ;
+        width: 50vw;
+    }
+    .intro-depth h1{
+        font-size: 3rem;
+    }
+}
+.skills{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:gray;
+}
+.tab{
+    height: 50%;
+    width: 45%;
+    text-align: center;
+}
+.name{
+    background-color: rgb(232, 220, 209);
+}
+.per{
+    background-color: whitesmoke;
+}
+@media screen and (max-width : 500px) {
+    .tab{
+        width: 90%;
+    }
+}
+
+.card:hover{
+    /* background-color: rgb(240, 197, 197); */
+    border: 5px solid gray;
+    cursor: pointer;
+    transform : scaleY(105%);
+    transition : 300ms;
+}
+.projects, .certification, .coding{
+    margin-bottom : 10vh;
+}
+
+.show{
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color:lightgray;
+    width : 9vw;
+    text-align: center;
+}
+.show:hover{
+    background-color: rgb(137, 129, 129);
+}
+
+@media screen and (max-width : 1366px) {
+    .show{
+        width: 150px;
+    }
+}
+
+.box:hover{
+    border: 5px solid gray;
+    cursor: pointer;
+    transform : scaleX(105%);
+    transition : 400ms;
+}
+.code{
+    width: 95%;
+    margin-left:3vw;
+}
+
+.logo img{
+    width: 80%;
+    height: 80%;
+}
+.box{
+    border-radius: 5px;
+}
+.left{
+    background-color:purple;
+    border-radius: 8px;
+    color: #fff;
+}
+.left p{
+    font-size:small;
+    text-align: center;
+    color: gray;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+.conta{
+    margin-top: 5vh;
+}
+
+.left h2{
+    padding: 2vh 0 2vh 0;
+    text-align: center;
+}
+.conta td{
+    padding: 1vw;
+}
+.sm:hover{
+    transform : scale(120%);
+    transition: 400ms ease-in-out;
+    cursor: pointer;
+}
+.side{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.side label{
+    margin-top:2vh;
+}
+.side input{
+    display: block;
+    border: 2px solid rgb(218, 213, 213);
+    border-style: outset;
+    margin-bottom : 3vh;
+    width: 20vw;
+    height: 6vh;
+    text-align: center;
+}
+textarea{
+    display: block;
+    margin-bottom:5vh;
+    width: 100%;
+}
+.contacts{
+    background-color: whitesmoke;
+    border-radius:8px;
+}
+.up label{
+    margin-top: 2vh;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.btn button{
+    margin-bottom: 3vh;
+}
+.btn button:hover{
+    cursor: pointer;
+    
+}
+.contact{
+    margin-bottom : 3vh;
+}
+#sub-heading
+{
+    margin-top: -5vh;
+    text-align: center;
+}
+.social-media{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction:column;
+}
+@media screen and (max-width : 500px) {
+    .contact{
+        width: 96%;
+    }
+}
+
+@media screen and (max-width : 697px) {
+    .side input{
+        width: 150px;
+    }
 }
