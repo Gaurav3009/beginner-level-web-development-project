@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Poppins:ital,wght@1,200&display=swap');
+body{
+    transition: 200ms ease-in-out;
+}
+li{
+    padding : 3vh 4vw;
+}
+
+a:hover{
+    transform : scale(105%);
+}
+.lefty{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Joan', serif;
+}
+.lefty h1{
+    font-size: 3.5rem;
+}
+.buy-sell{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.btn{
+    padding: 2vh 3vw;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3vh 3vw;
+    margin: 3vh 2vw;
+}
+.card:hover{
+    transition: 200ms ease-in-out;
+    transform : scale(105%);
+    box-shadow: 0 3px 4px rgb(179, 177, 177);
+}
+.add{
+    border-radius: 10px;
+    background-color: rgb(244, 191, 92);
+}
+.add:hover{
+    background-color: rgb(222, 174, 84);
+    font-weight: 450;
+    cursor: pointer;
+}
+#cart-item-numbers{
+    display : none;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    padding: 0.2rem;
+}
+
+.form-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.form-render{
+    border: 2px solid black;
+    width: 100%;
+    padding: 2vh 5vw;
+    margin-bottom : 1vh;
+    background-color: #D3CEDF;
+}
+.form-render label{
+    margin: 4vh 0vw;
+}
+.form-render input{
+    display: block;
+    border-width: 0px 0px 1px 0px;
+    width: 98%;
+    background-color: #D3CEDF;
+    
+    
+}
+.form-render input.focus {
+    outline: none;
+}
+select{
+    background-color: #cec2eb;
+}
+.apply-btn { 
+    margin-left: 30vw;
+    border-radius : 8px;
+    width: 5rem;
+    height: 2rem;
+}
+.message-display{
+    text-align: center;
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.item-cart{
+    display: flex;
+    flex-direction : row;
+    justify-content: space-between;
+    margin-bottom : 2vh;
+}
+.left{
+    display: flex;
+    flex-direction : row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left img {
+    height: 80%;
+    width: 80%;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+#total{
+    margin-right: 10%;
+}
+.order-btn{
+    width: 5rem;
+    height: 3rem;
+    border-radius:8px;
+    background-color: #FFB562;
+    border: none;
+    float: right;
+    margin-bottom: 2vh;
+}
+.order-btn:hover{
+    cursor: pointer;
+    background-color:#dd9c53;
+}
+.cont{
+    height: 60vh;
+    margin-top: 8vh;
+}
+.l{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(137, 34, 137);
+    border-radius:5px;
+}
+.r{
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.r h2{
+    text-align: center;
+}
+.rightLeft{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+}
+.rightLeft input{
+    border-width : 0px 0px 1px 0px;
+    margin : 3vh 0vh;
+    background-color: whitesmoke;
+}
+.rightRight{
+    display: flex;
+    flex-direction: column;
+    padding-right: 2vw;
+}
+.rightRight input{
+    border-width: 0px 0px 1px 0px;
+    margin : 3vh 0vh;
+    background-color: whitesmoke;
+}
+
+.details-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    
+}
+
+.submit{
+    border-radius: 8px;
+    width : 5rem;
+    height: 2.5rem;
+    background-color: #FCC5C0;
+    border: none;
+}
+
+.submit:hover {
+    background-color: #d8a9a5;
+    cursor: pointer;
+}
+
+.nth-order {
+    background-color: whitesmoke;
+    margin-top: 5vh;
+}
+.card h6{
+    text-align: center;
+    height: 2rem;
+    padding-top: 0.2rem;
+    background-color:rgb(27, 217, 27);
+    border-radius: 8px;
+}
+
+@media screen and (max-width : 1200px) { 
+    .item-cart h4, h3{ 
+        font-size: 1rem;
+    }
+    .item-cart img {
+        height: 5rem;
+    }
+    #total {
+        font-size: 1rem;
+    }
+    .order-btn {
+        height: 2.5rem;
+        width: 3.5rem;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .navbar {
+        background-color: white;
+    }
+}
+
